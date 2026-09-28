@@ -1,0 +1,5 @@
+{
+  "mode": "paper",
+  "starting_balance": 10000,
+  "risk_per_trade": 0.01
+}
