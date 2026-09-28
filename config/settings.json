@@ -1,5 +1,12 @@
 {
   "mode": "paper",
   "starting_balance": 10000,
-  "risk_per_trade": 0.01
+  "risk_per_trade": 0.01,
+  "news": {
+    "enabled": true,
+    "provider": "finnhub",
+    "max_items": 50,
+    "use_for_trade_context": true,
+    "block_on_unknown_news": false
+  }
 }
