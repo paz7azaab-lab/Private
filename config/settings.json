@@ -4,9 +4,17 @@
   "risk_per_trade": 0.01,
   "news": {
     "enabled": true,
-    "provider": "finnhub",
+    "provider": "rss",
     "max_items": 50,
     "use_for_trade_context": true,
     "block_on_unknown_news": false
+  },
+  "billing": {
+    "enabled": true,
+    "mode": "subscription_or_fee",
+    "fee_rate": 0.02,
+    "currency": "USD",
+    "real_money_payments_enabled": false,
+    "real_trade_execution_enabled": false
   }
 }
