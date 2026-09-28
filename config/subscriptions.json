@@ -1,0 +1,30 @@
+{
+  "currency": "USD",
+  "trial_days": 7,
+  "plans": {
+    "free": {
+      "monthly_price": 0,
+      "features": ["limited_analysis", "limited_news"]
+    },
+    "basic": {
+      "monthly_price": 9.99,
+      "features": ["analysis", "news", "alerts"]
+    },
+    "pro": {
+      "monthly_price": 24.99,
+      "features": ["analysis", "news", "alerts", "backtest", "risk_management"]
+    },
+    "advanced": {
+      "monthly_price": 49.99,
+      "features": ["all_paper_features", "advanced_reports", "priority_processing"]
+    },
+    "fee_based": {
+      "monthly_price": 0,
+      "trade_fee_rate": 0.02,
+      "features": ["core_features"]
+    }
+  },
+  "billing_mode": "simulation_only",
+  "real_money_payments_enabled": false,
+  "real_trade_execution_enabled": false
+}
