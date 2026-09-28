@@ -1,0 +1,21 @@
+{
+  "mode": "paper",
+  "loop": {
+    "enabled": false,
+    "interval_seconds": 300
+  },
+  "decision": {
+    "min_confidence": 0.65,
+    "use_news": true,
+    "block_on_anomaly": true,
+    "unknown_news_action": "hold"
+  },
+  "execution": {
+    "paper_only": true,
+    "real_orders": false
+  },
+  "observability": {
+    "audit_log": true,
+    "explain_decisions": true
+  }
+}
